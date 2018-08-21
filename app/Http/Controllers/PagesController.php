@@ -35,19 +35,4 @@ class PagesController extends Controller
         return view('howler')->with('sermons', $sermons);
     }
 
-
-    public function clearcache()
-    {
-        // Commandline Equivilent
-        //$ /opt/php71/bin/php artisan config:cache
-        //$ /opt/php71/bin/php artisan cache:clear
-        //$ /opt/php71/bin/php artisan view:clear
-        $process = new Process('php artisan config:cache');
-        $process->run();
-        $process = new Process('php artisan cache:clear');
-        $process->run();
-        $process = new Process('php artisan view:clear');
-        $process->run();
-        return 'Cache Clear';
-    }
 }
