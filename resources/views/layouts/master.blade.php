@@ -12,12 +12,6 @@
   <link rel="stylesheet" href="/css/vendor/zurb/foundation.min.css">
   <link rel="stylesheet" href="/css/myapp.css">
 
-  <style>
-i.fab{
-  color: black;
-}
-body{color:black;}
-  </style>
 </head>
 
 <body>
