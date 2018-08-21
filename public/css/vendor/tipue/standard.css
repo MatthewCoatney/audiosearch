@@ -1,0 +1,218 @@
+/* basics */
+
+
+*
+{
+     margin: 0;
+}
+html, body
+{
+     padding: 0;
+     margin: 0;
+     height: 100%;
+}
+a
+{
+     cursor: pointer;
+     outline: 0;
+}
+p
+{
+     padding-top: 13px;
+     margin: 0;
+}
+ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.clear
+{
+     clear: both;
+}
+.not
+{
+     text-decoration: none;
+}
+.nowrap
+{
+     white-space: nowrap;
+}
+.wrap
+{
+     word-wrap: break-word;
+}
+.center
+{
+     text-align: center;
+}
+.image
+{
+     width: auto;
+}
+
+
+/* buttons, icons */
+
+
+.btn-2
+{
+     display: inline-block;
+     font: 13px/1 'Source Code Pro', sans-serif;
+	color: #555;
+	text-transform: uppercase;
+	letter-spacing: 2px; 
+     padding: 30px 50px;
+     text-decoration: none;
+     text-align: center;
+     background-color: #eee;
+     border-radius: 3px;
+     outline: 0;
+     transition: all 0.2s ease; 
+     cursor: pointer;
+}
+.btn-2:hover
+{
+     background-color: #ddd;    
+}
+
+
+/* fonts */
+
+
+h1
+{
+     font: 90px/1.1 'Abril Fatface', serif;
+     margin: 0;
+     padding: 0;
+}
+
+.fo-1
+{
+     font: 11px/1.7 'Source Code Pro', monospace;
+	color: #ccc;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.fo-4
+{
+     font: 12px/1.6 'Source Code Pro', monospace;
+	color: #333;
+	text-transform: uppercase;
+}
+.fo-5
+{
+     font: 300 32px/1.7 'Open Sans', sans-serif;
+	color: #333;
+     -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.fo-7
+{
+     font: 300 16px/1.7 'Open Sans', sans-serif;
+	color: #666;
+}
+
+.fo-1 a
+{
+     color: #ccc;
+     text-decoration: none;
+}
+.fo-1 a:hover
+{
+     border-bottom: 2px solid #f7f7f7;
+}
+.fo-7 a
+{
+     color: #339e41;
+     text-decoration: none;
+}
+.fo-7 a:hover
+{
+	color: #666;     
+}
+
+.fa-5
+{
+     font-size: 75px;
+     color: #fff;
+}
+.fa-6
+{
+     color: #fff;
+}
+
+
+/* lo */
+
+
+.block
+{
+     margin: 0 auto;
+     max-width: 1180px;
+     padding: 0 20px;
+     box-sizing: border-box;     
+}
+
+.head
+{
+     position: relative;
+     background-size: cover;
+     background-image: url('../img/glow.jpg');
+     min-height: 670px;
+     padding: 20px 0 30px 0;
+}
+.head-12
+{
+     background-image: url('../img/surface.jpg');
+}
+
+.slab-5
+{
+     padding: 23px 0 39px 0;
+     background-color: #f9f9f9;
+}
+
+
+/* head, foot */
+
+
+#head
+{
+     position: absolute;
+     top: 0;
+     width: 100%;
+     height: 52px;
+     background-color: #252525;
+     z-index: 100;
+}
+.head-icon
+{
+     float: left;
+     padding: 10px 11px 0 11px;
+}
+
+.cont
+{
+     min-height: 100%;
+	margin-bottom: -280px; 
+}
+.cont:after
+{
+     content: "";
+     display: block;
+}
+.foot, .cont:after
+{
+     height: 280px; 
+}
+.foot
+{
+     background-color: #252525;
+}
+footer
+{
+     margin: 0;
+     padding: 0;
+}
