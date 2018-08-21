@@ -12,5 +12,5 @@ Read more about the project on the blog:
 
 I hope this project will be of some use to you. It was based on these amazing technologies (check them out!):
 
-- **[TIPUE: Tipue Search](https://tipue.com/)**
-- **[GOLDFIRE:  HowlerJS](https://howlerjs.com/)**
+- **[Tipue](https://tipue.com/)**
+- **[HowlerJS](https://howlerjs.com/)**
