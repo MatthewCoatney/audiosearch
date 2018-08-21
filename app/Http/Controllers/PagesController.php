@@ -34,8 +34,4 @@ class PagesController extends Controller
         return view('howler')->with('sermons', $sermons);
     }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 13d0301fd560e1dbb427dd5b69002e7f03eb218b
 }
